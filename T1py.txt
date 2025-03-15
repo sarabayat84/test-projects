@@ -1,0 +1,35 @@
+تمرین1 : محاسبه سن و قد و نام.
+
+Name = input("Please Enter Your Name :")
+Age = input("Please Enter Your Age : ")
+Height = input("Please Enter Your Height :")
+print(f"name : {Name} \n age : {Age} \n height : {Height}")
+
+
+تمرین 2 : ضرب جمع تقسیم منها 
+
+Num1 = float(input("Please Enter Number 1 :"))
+Num2 = float(input("Please Enter NUmber 2 :"))
+
+Sum = Num1 + Num2
+Min = Num1 - Num2
+Zarb = Num1 * Num2
+
+#بررسی تقسیم بر صفر
+if Num2 != 0:
+    Div = Num1 / Num2
+else:
+    print("Error")
+
+print(f"sum : {Sum} \n min : {Min} \n zarb : {Zarb} \n  div : {Div}")
+
+
+
+تمرین 3 : تبدیل عدد اعشاری به عدد صحیح 
+
+
+Number = float(input("Please Enter a Float Number : "))
+
+Tabdil = int(Number)
+
+print(f"num : {Tabdil}")
